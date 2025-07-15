@@ -14,7 +14,7 @@ RUN apt-get install 'libgl1-mesa-glx' -y
 RUN apt-get install 'python-dev' -y
 
 # set this to your target branch commit
-ARG BRANCH=main SHA=e2f9bcb11d06216d6800676c48d8d74d6fd77a4b
+ARG BRANCH=main SHA=d7439b2d6004d50a0fda19108603a8d1941a185e
 
 ENV ROOT=/stable-diffusion
 RUN --mount=type=cache,target=/root/.cache/pip \
